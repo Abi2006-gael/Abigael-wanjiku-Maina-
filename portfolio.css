@@ -38,4 +38,24 @@ a{
 a:hover{
     color: #0056b3;
     text-decoration: underline;
+    skill-list{
+        display:flex;
+        justify-content;space-around;
+        flex-wrap:wrap
+    }
+    .skill-list li{
+        background-color:#007bff;
+        color:white;
+        margin:5px;
+        pading:8px 15px;
+    }
+    project li {
+        transition:transform 0.25;
+        padding:10px
+        margin-bottom:10px;
+        border-left:4px solid #007bff;
+    }
+    #project li:hover {
+        transform:translatex{10px};
+    background-clor:fif3f5
 }
